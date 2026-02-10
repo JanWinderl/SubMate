@@ -9,10 +9,10 @@ Das Backend muss permanent laufen, damit die Seite funktioniert.
    - WICHTIG: Sobald dieser Befehl läuft, ist dieses Terminal "besetzt" und zeigt Logs an. Man kann hier nichts mehr eintippen.
 
 ### 2. Daten befüllen (Terminal 2 - Einmalig)
-Da Terminal 1 blockiert ist, öffnen Sie ein neues Terminal für das Seeding.
+Da Terminal 1 blockiert ist, neues Terminal öffnen für das Seeding.
 
 1. cd backend
-2. node seed.js
+2. node seed.js (--> erstellt 20 Test-Abos)
    - Hinweis: Nur einmal ausführen. Wenn man es öfter macht, hat man die Test-Abos doppelt und dreifach in der Datenbank, da das Skript einfach neue Einträge hinzufügt.
 
 ### 3. Frontend (Terminal 2 oder 3)
